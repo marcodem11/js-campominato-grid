@@ -1,26 +1,26 @@
-const selectElement = document.getElementById('mode');
+const selectElement = document.getElementById('options');
 const playButton = document.getElementById('play');
 const gridElement = document.querySelector('.grid')
 
 const startGame = () => {
     console.log('Inizia il gioco');
 
-    const mode = parseInt (selectElement.value)
+    const options = parseInt (selectElement.value)
     let rows;
     let columns;
     let cellSize;
-    console.log(mode)
+    console.log(options)
 
-    switch(mode) {
-        case 1:
+    switch(options) {
+        case 'easy':
             rows = 10;
             columns = 10;
             break;
-        case 2:
+        case 'normal':
             rows = 9;
             columns = 9;
             break;
-        case 3:
+        case 'crazy':
             rows = 7;
             columns = 7;
             break;
