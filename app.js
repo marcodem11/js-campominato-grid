@@ -5,7 +5,7 @@ const gridElement = document.querySelector('.grid')
 const startGame = () => {
     console.log('Inizia il gioco');
 
-    const options = parseInt (selectElement.value)
+    const options = (selectElement.value)
     let rows;
     let columns;
     let cellSize;
