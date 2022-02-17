@@ -47,7 +47,7 @@ main{
     background-color: #0040a0;
 }
 
-.game{
+.grid{
     width: 750px;
     /* height: 500px; */
     display: flex;

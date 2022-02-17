@@ -1,5 +1,6 @@
 const selectElement = document.getElementById('mode');
 const playButton = document.getElementById('play');
+const gridElement = document.querySelector('.grid')
 
 const startGame = () => {
     console.log('Inizia il gioco');
@@ -43,3 +44,5 @@ const startGame = () => {
     }
 
 }
+
+playButton.addEventListener('click', startGame);
